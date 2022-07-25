@@ -1,0 +1,23 @@
+.Card {
+    width: 500px;
+    max-height: 400px;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.Card > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card > div:nth-child(2) {
+    text-align: right;
+}
+
+.Card > button {
+    align-self: flex-end;
+}
