@@ -21,6 +21,8 @@ function App() {
   return (
     <div className="App">
       <Card content={object.quote} author={object.author} cb={randomizeQuotes} color={cssColor}/>
+      <br />
+      <h3> Realizado por: Raul Gomez</h3>
     </div>
   );
 }
